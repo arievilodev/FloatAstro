@@ -204,6 +204,10 @@ def main():
             if evento.type == pygame.KEYDOWN:
                 if evento.key == pygame.K_ESCAPE:
                     quit()
+            # Verifica eventos de toque na tela
+            elif evento.type == pygame.MOUSEBUTTONDOWN:
+                if evento.button == 1:  # Botão esquerdo do mouse
+                     posicao_x, posicao_y = evento.pos
 
         # mover as coisas
         for astronauta in astronautas:
