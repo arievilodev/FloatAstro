@@ -180,7 +180,7 @@ def main():
     pontos = 0
     relogio = pygame.time.Clock()
 
-    pygame.display.set_caption("OST")
+    pygame.display.set_caption("Float Astro")
 
     pygame.mixer.init()
     pygame.mixer.music.load(os.path.join('audio', "ost_floatastro.mp3"))
